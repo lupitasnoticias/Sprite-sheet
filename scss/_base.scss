@@ -37,10 +37,10 @@ h1, h2, h3{
 }
 
 a{
-	text-decoration: none;
-	color: rgb(255,127,123);
+	text-decoration: none; /*why isnt this working?*/
+	color: rgb(255,127,123); /*why isnt this working?*/
 }
 
 a:hover {
-	color: rgb(232,133,112);
+	color: rgb(232,133,112); /*why isnt this working?*/
 }
