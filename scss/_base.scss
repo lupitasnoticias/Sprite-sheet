@@ -1,6 +1,7 @@
 @import "compass/utilities/sprites";
 @import 'icon/*.png';
 @include all-icon-sprites;
+@import url('https://fonts.googleapis.com/css?family=Raleway|Taviraj');
 
 i {
 	height: 100px;
@@ -27,5 +28,19 @@ li{
 body{
 	background-color: rgb(255,174,136);
 	max-width: 960px;
-	float: center;
+	text-align: center;
+	font-family: 'Raleway', sans-serif; /*why isnt this working?*/
+}
+
+h1, h2, h3{
+	font-family: 'Taviraj', serif; /*why isnt this working?*/
+}
+
+a{
+	text-decoration: none; /*why isnt this working?*/
+	color: rgb(255,127,123); /*why isnt this working?*/
+}
+
+a:hover {
+	color: rgb(232,133,112); /*why isnt this working?*/
 }

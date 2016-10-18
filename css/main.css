@@ -4,6 +4,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
+@import url("https://fonts.googleapis.com/css?family=Raleway|Taviraj");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -477,6 +478,156 @@ textarea {
   padding: 0.2em 0;
 }
 
+.icon-sprite, .icon-bike, .icon-birdie, .icon-car, .icon-chat-bubble, .icon-digg, .icon-droid, .icon-drop, .icon-ghost, .icon-grad-cap, .icon-hands, .icon-peace, .icon-rocket, .icon-thumbs-up, .icon-umbrella {
+  background-image: url('../img/icon-s029c5c0aca.png');
+  background-repeat: no-repeat;
+}
+
+.icon-bike {
+  background-position: 0 -100px;
+}
+.icon-bike:hover, .icon-bike.bike-hover {
+  background-position: 0 0;
+}
+
+.icon-birdie {
+  background-position: 0 -300px;
+}
+.icon-birdie:hover, .icon-birdie.birdie-hover {
+  background-position: 0 -200px;
+}
+
+.icon-car {
+  background-position: 0 -500px;
+}
+.icon-car:hover, .icon-car.car-hover {
+  background-position: 0 -400px;
+}
+
+.icon-chat-bubble {
+  background-position: 0 -700px;
+}
+.icon-chat-bubble:hover, .icon-chat-bubble.chat-bubble-hover {
+  background-position: 0 -600px;
+}
+
+.icon-digg {
+  background-position: 0 -900px;
+}
+.icon-digg:hover, .icon-digg.digg-hover {
+  background-position: 0 -800px;
+}
+
+.icon-droid {
+  background-position: 0 -1100px;
+}
+.icon-droid:hover, .icon-droid.droid-hover {
+  background-position: 0 -1000px;
+}
+
+.icon-drop {
+  background-position: 0 -1300px;
+}
+.icon-drop:hover, .icon-drop.drop-hover {
+  background-position: 0 -1200px;
+}
+
+.icon-ghost {
+  background-position: 0 -1500px;
+}
+.icon-ghost:hover, .icon-ghost.ghost-hover {
+  background-position: 0 -1400px;
+}
+
+.icon-grad-cap {
+  background-position: 0 -1700px;
+}
+.icon-grad-cap:hover, .icon-grad-cap.grad-cap-hover {
+  background-position: 0 -1600px;
+}
+
+.icon-hands {
+  background-position: 0 -1900px;
+}
+.icon-hands:hover, .icon-hands.hands-hover {
+  background-position: 0 -1800px;
+}
+
+.icon-peace {
+  background-position: 0 -2100px;
+}
+.icon-peace:hover, .icon-peace.peace-hover {
+  background-position: 0 -2000px;
+}
+
+.icon-rocket {
+  background-position: 0 -2300px;
+}
+.icon-rocket:hover, .icon-rocket.rocket-hover {
+  background-position: 0 -2200px;
+}
+
+.icon-thumbs-up {
+  background-position: 0 -2500px;
+}
+.icon-thumbs-up:hover, .icon-thumbs-up.thumbs-up-hover {
+  background-position: 0 -2400px;
+}
+
+.icon-umbrella {
+  background-position: 0 -2700px;
+}
+.icon-umbrella:hover, .icon-umbrella.umbrella-hover {
+  background-position: 0 -2600px;
+}
+
+i {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+li a {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+li a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+
+body {
+  background-color: #ffae88;
+  max-width: 960px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  /*why isnt this working?*/
+}
+
+h1, h2, h3 {
+  font-family: 'Taviraj', serif;
+  /*why isnt this working?*/
+}
+
+a {
+  text-decoration: none;
+  /*why isnt this working?*/
+  color: #ff7f7b;
+  /*why isnt this working?*/
+}
+
+a:hover {
+  color: #e88570;
+  /*why isnt this working?*/
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -633,99 +784,4 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
-}
-.icon-sprite, .icon-bike, .icon-car, .icon-digg, .icon-droid, .icon-drop, .icon-grad-cap, .icon-hands, .icon-peace, .icon-umbrella {
-  background-image: url('../img/icon-sc929d315d6.png');
-  background-repeat: no-repeat;
-}
-
-.icon-bike {
-  background-position: 0 -100px;
-}
-.icon-bike:hover, .icon-bike.bike-hover {
-  background-position: 0 0;
-}
-
-.icon-car {
-  background-position: 0 -300px;
-}
-.icon-car:hover, .icon-car.car-hover {
-  background-position: 0 -200px;
-}
-
-.icon-digg {
-  background-position: 0 -500px;
-}
-.icon-digg:hover, .icon-digg.digg-hover {
-  background-position: 0 -400px;
-}
-
-.icon-droid {
-  background-position: 0 -700px;
-}
-.icon-droid:hover, .icon-droid.droid-hover {
-  background-position: 0 -600px;
-}
-
-.icon-drop {
-  background-position: 0 -900px;
-}
-.icon-drop:hover, .icon-drop.drop-hover {
-  background-position: 0 -800px;
-}
-
-.icon-grad-cap {
-  background-position: 0 -1100px;
-}
-.icon-grad-cap:hover, .icon-grad-cap.grad-cap-hover {
-  background-position: 0 -1000px;
-}
-
-.icon-hands {
-  background-position: 0 -1300px;
-}
-.icon-hands:hover, .icon-hands.hands-hover {
-  background-position: 0 -1200px;
-}
-
-.icon-peace {
-  background-position: 0 -1500px;
-}
-.icon-peace:hover, .icon-peace.peace-hover {
-  background-position: 0 -1400px;
-}
-
-.icon-umbrella {
-  background-position: 0 -1700px;
-}
-.icon-umbrella:hover, .icon-umbrella.umbrella-hover {
-  background-position: 0 -1600px;
-}
-
-i {
-  height: 100px;
-  width: 100px;
-  display: inline-block;
-}
-
-li {
-  list-style: none;
-  display: inline-block;
-  padding: 10px;
-}
-li a {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-}
-li a span {
-  position: absolute;
-  top: -9999em;
-  left: -9999em;
-}
-
-body {
-  background-color: #ffae88;
-  max-width: 960px;
-  float: center;
 }
